@@ -32,6 +32,11 @@ github_username:  jekyll
 collections:
   authors:
     output: true
+    permalink: /staff/:name/
+  posts:
+    output: true
+    permalink: /posts/:title/
+
 
 defaults:
   - scope:
