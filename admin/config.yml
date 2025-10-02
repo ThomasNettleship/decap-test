@@ -4,8 +4,8 @@ backend:
   base_url: https://decap.nettleship.net
 
 publish_mode: editorial_workflow
-media_folder: "/images/uploads"
-public_folder: /"images/uploads"
+media_folder: /images/uploads
+public_folder: /images/uploads
 
 collections:
   - name: 'posts'
