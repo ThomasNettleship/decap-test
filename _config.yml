@@ -30,6 +30,8 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 collections:
+  pages:
+    output: true
   authors:
     output: true
     permalink: /staff/:name/

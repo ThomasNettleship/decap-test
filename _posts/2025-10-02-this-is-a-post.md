@@ -1,5 +1,6 @@
 ---
 title: This is a post
-author: Thomas
+author: thomas
 ---
+
 This is the post body
