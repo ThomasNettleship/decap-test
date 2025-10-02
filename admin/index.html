@@ -22,7 +22,7 @@
             h(
               "p",
               {},
-              "This is the post preview. This can be made to look like the area of your site where this content will be displayed."
+              "This is a preview of the post. This can be made to simulate the frontend, maybe."
             ),
             h("h1", {}, entry.getIn(["data", "title"])),
             h("img", { src: bg.toString() }),
@@ -30,7 +30,9 @@
           );
         },
       });
+
       CMS.registerPreviewTemplate("posts", PostPreview);
+      CMS.registerPreviewStyle("/assets/css/styles.css");
     </script>
   </body>
 </html>
