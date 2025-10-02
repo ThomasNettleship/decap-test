@@ -3,7 +3,7 @@ backend:
   repo: ThomasNettleship/decap-test
   base_url: https://decap.nettleship.net
 
-publish_mode: editorial_workflow
+#publish_mode: editorial_workflow
 media_folder: /images/uploads
 public_folder: /images/uploads
 
@@ -33,6 +33,7 @@ collections:
       - label: Drafts
         field: draft
     fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Author', name: 'author', widget: 'string', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
 
