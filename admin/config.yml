@@ -33,19 +33,6 @@ collections:
       - label: Drafts
         field: draft
     fields:
-      - { label: 'Title', name: 'title', widget: 'string', required: true }
       - { label: 'Author', name: 'author', widget: 'string', required: false }
-      - { label: 'Draft', name: 'draft', widget: 'boolean', default: false }
-      - {
-          label: 'Publish Date',
-          name: 'date',
-          widget: 'datetime',
-          format: 'YYYY-MM-DD HH:mm',
-          default: '{{now}}'
-        }
-      - label: 'Cover Image'
-        name: 'image'
-        widget: 'image'
-        required: false
       - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
 
